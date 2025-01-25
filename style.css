@@ -1,0 +1,154 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  align-items: center;
+  background-image: url(img/bg-top.svg);
+  background-repeat: no-repeat;
+  background-position: 13rem -2.5rem;  
+  margin-bottom: 2rem;
+}
+h2 {
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+  color: rgb(82, 76, 120);
+}
+.heading1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading2 {
+  padding-top: 25px;
+}
+.toglebtn {
+  height: 31px;
+  width: 57px;
+  border-radius: 2rem;
+  background-color: #6c63ff;
+  align-items: start;
+  margin: 2rem;
+  border: none;
+}
+.white {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-top: 1px;
+  background-color: white;
+}
+h5 {
+  font-size: 20px;
+}
+.card {
+  height: 450px;
+  width: 340px;
+  background-image: linear-gradient(hsl(233, 13%, 49%));
+  text-align: center;
+  margin: auto;
+  border-radius: 6px;
+  color: rgb(80, 76, 107);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.card ul li {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0;
+  padding: 10px 0;
+  position: relative;
+  padding: 10px 0;
+  font-weight: bold;
+}
+hr{
+  width: 15rem;
+  color: #6a6565;
+}
+.card button {
+  height: 2rem;
+  border: none;
+  background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 15rem;
+  margin: 0 2rem;
+  font-size: 13px;
+  font-weight: bold;
+}
+p {
+  font-weight: bold;
+  font-size: 30px;
+}
+p span {
+  font-size: 4rem;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.card2 {
+   background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  color: #f3eeee;
+
+}
+.card2 button {
+   background-image: none;
+   background-color: white;
+  color: #6c63ff;
+}
+.card2 ul li {
+  color: #ddd;
+}
+.container{
+  margin-top: 70px;
+}
+
+@media (min-width: 1440px) {
+  .main{
+    max-height: 100vh;
+    background-image:url(img/bg-top.svg),url(img/bg-bottom.svg);
+    background-position: right top , left bottom;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 0;
+  }
+
+  .card {
+    flex: 1;
+    height: 500px;
+  }
+  .card2{
+    height: 660px;
+    width: 450px;
+  }
+  .card2 button{
+    margin-top: 3rem;
+  }
+  .card1{
+    margin-left: 20rem;
+  }
+  .card1,.card3{
+    margin-top: 50px;
+    max-width: 350px;
+   
+  }
+  .card3{
+    margin-right: 20rem;
+  }
+}
+
+/* 
+Very Light Grayish Blue: hsl(240, 78%, 98%)
+Light Grayish Blue: hsl(234, 14%, 74%)
+Grayish Blue: hsl(233, 13%, 49%)
+Dark Grayish Blue: hsl(232, 13%, 33%) */
